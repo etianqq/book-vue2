@@ -16,3 +16,4 @@
       
 ####生命周期图示
 ![](vue-lifecycle.png)
+![](vue-lifecycle-comparison.png)
