@@ -14,4 +14,4 @@
 
 如果在发布环境，需要生成build文件，运行命令```npm run build```。
 
-参考文献：[http://www.cnblogs.com/keepfool/p/5678427.html](http://www.cnblogs.com/keepfool/p/5678427.html)
+参考文献：[Vue.js——60分钟webpack项目模板快速入门](http://www.cnblogs.com/keepfool/p/5678427.html)
