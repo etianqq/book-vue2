@@ -47,3 +47,7 @@ Vue.js 允许你自定义过滤器，被用作一些常见的文本格式化。�
 
     <p v-if="seen">Now you see me</p>
     <a v-on:click="doSomething">
+    
+###缩写
+1. v-bind缩写：```<a v-bind:href="url"></a> ==> <a :href="url"></a>```
+2. v-on缩写：```<a v-on:click="doSomething"></a> ==> <a @click="doSomething"></a>```
