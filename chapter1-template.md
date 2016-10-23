@@ -43,3 +43,7 @@ Vue.js 允许你自定义过滤器，被用作一些常见的文本格式化。�
     })
 
 ###指令
+指令（Directives）是带有 v- 前缀的特殊属性。指令属性的值预期是单一 JavaScript 表达式（除了 v-for，之后再讨论）。指令的职责就是**当其表达式的值改变时相应地将某些行为应用到 DOM 上**。如：
+
+    <p v-if="seen">Now you see me</p>
+    <a v-on:click="doSomething">
