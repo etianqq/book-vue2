@@ -6,6 +6,7 @@
    * [vue-cli](chapter1-vue-cli.md)
    * [Vue实例](chapter1-vue-object.md)
    * [模板语法](chapter1-template.md)
+   * 计算属性
 * [进阶](chapter2.md)
    * [单文件组件](chapter2-vue-file.md)
 
