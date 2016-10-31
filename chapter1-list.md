@@ -55,4 +55,21 @@ JS
       }
     })
 
-地方
+####注意事项
+
+由于 JavaScript 的限制， Vue 不能检测以下变动的数组：
+
+1. 当你直接设置一个项的索引时，例如： ```vm.items[indexOfItem] = newValue```
+2. 当你修改数组的长度时，例如： ```vm.items.length = newLength```
+
+为了避免第一种情况，使用set或者splice：
+
+    // Vue.set
+    Vue.set(example1.items, indexOfItem, newValue)
+    
+    // Array.prototype.splice`
+    example1.items.splice(indexOfItem, 1, newValue)
+    
+避免第二种情况，使用 splice：
+
+    example1.items.splice(newLength)
