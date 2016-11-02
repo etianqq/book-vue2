@@ -27,7 +27,7 @@ JS:
 * capture 添加事件侦听器时使用时间捕获模式
 * self 只当事件在该元素本身（而不是子元素）触发时触发回调
 
-    <a v-on:click.stop.prevent="doThat"></a>
+      <a v-on:click.stop.prevent="doThat"></a>
 
 ####按键修饰符
 在监听键盘事件时，我们经常需要监测常见的键值。 Vue 允许为 ```v-on``` 在监听键盘事件时添加按键修饰符:
@@ -42,4 +42,4 @@ JS:
 * left
 * right
 
-    <input v-on:keyup.enter="submit">
+      <input v-on:keyup.enter="submit">
