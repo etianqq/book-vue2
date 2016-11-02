@@ -26,5 +26,9 @@ JS:
 
 * stop  ==> event.preventDefault();
 * prevent ===> event.stopPropagation()
-* capture
-* self
+* capture 添加事件侦听器时使用时间捕获模式
+* self 只当事件在该元素本身（而不是子元素）触发时触发回调
+
+<a v-on:click.stop.prevent="doThat"></a>
+
+#####按键修饰符
