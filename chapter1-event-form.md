@@ -22,4 +22,9 @@ JS:
       }
     })
 
-d
+#####事件修饰符
+
+* stop  ==> event.preventDefault();
+* prevent ===> event.stopPropagation()
+* capture
+* self
