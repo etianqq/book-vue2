@@ -10,6 +10,7 @@
    * [列表渲染](chapter1-list.md)
    * [事件](chapter1-event.md)
    * [表单](chapter1-form.md)
+   * 组件
 * [进阶](chapter2.md)
    * [单文件组件](chapter2-vue-file.md)
 
