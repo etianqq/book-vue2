@@ -1,6 +1,6 @@
 # Vue-router(2.0)
 
-[](https://github.com/vuejs/vue-router/tree/dev/docs/zh-cn)
+[中文文档](https://github.com/vuejs/vue-router/tree/dev/docs/zh-cn)
 
 ####初始化
 
