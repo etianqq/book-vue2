@@ -35,7 +35,7 @@
             name: 'page2',
             component: page2,
             children: [
-                //默认会显示children1页面（如何默认重定向到/children1?）
+                //默认会显示children1页面
                 {
                     path: '',
                     name: 'children1',
@@ -49,10 +49,10 @@
                 }
             ]
         },
-        //默认会显示page1页面（如何默认重定向到/page1?）
+        //默认重定向到/page1
         {
             path: '*',
-            component: page1
+            redirect: {name:'page1'}
         }
     ]
 
