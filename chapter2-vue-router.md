@@ -1,4 +1,7 @@
 # Vue-router(2.0)
+
+[](https://github.com/vuejs/vue-router/tree/dev/docs/zh-cn)
+
 ####初始化
 
     import VueRouter from 'vue-router';
