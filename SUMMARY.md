@@ -13,5 +13,5 @@
    * [组件](chapter1-component.md)
 * [进阶](chapter2.md)
    * [单文件组件](chapter2-vue-file.md)
-   * [Vue-router2.0](chapter2-vue-router.md)
+   * [Vue-router(2.0)](chapter2-vue-router.md)
 
