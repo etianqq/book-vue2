@@ -77,3 +77,25 @@
 
     // app.id为变量
     <router-link :to="'/user/' + app.id">User</router-link>
+     
+####编程式的导航
+| 声明式 | 编程式 |
+| -- | -- |
+| ```<router-link to="...">``` | ```router.push(...)``` |
+
+该方法的参数可以是一个字符串路径，或者一个描述地址的对象。例如：
+
+    // 字符串
+    router.push('home')
+
+    // 对象
+    router.push({ path: 'home' })
+
+    // 命名的路由
+    router.push({ name: 'user', params: { userId: 123 }})
+
+    // 带查询参数，变成 /register?plan=private
+    router.push({ path: 'register', query: { plan: 'private' }})
+
+
+如果是组件，可以用```this.$router```取到```router```对象。
