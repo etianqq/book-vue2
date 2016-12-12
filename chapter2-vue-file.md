@@ -11,3 +11,9 @@
 ####针对高级用户
 
 无论你更钟情 Webpack 或是 Browserify，我们为简单的和更复杂的项目都提供了一些文档模板。我们建议浏览 [github.com/vuejs-templates](https://github.com/vuejs-templates)，找到你需要的部分，然后参考 README 中的说明，使用 [vue-cli](https://github.com/vuejs/vue-cli) 工具生成新的项目。
+
+####style
+如果添加```scoped```标签，所定义的style样式，只会应用在该组件里面。
+
+因为它会自动添加动态属性值到该组件的每个标签里面：
+![](/assets/style-scoped.png)
