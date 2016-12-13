@@ -31,3 +31,27 @@ new Vue({
   el: '#example-2'
 })
 ```
+
+####2.父子组件通信
+通常父子组件会是这样的关系：组件 A 在它的模版中使用了组件 B 。它们之间必然需要相互通信：父组件要给子组件传递数据，子组件需要将它内部发生的事情告知给父组件。
+
+在 Vue.js 中，父子组件的关系可以总结为 props down, events up 。父组件通过 props 向下传递数据给子组件，子组件通过 events 给父组件发送消息。看看它们是怎么工作的。
+![](/assets/props-events.png)
+
+#####使用prop传递数据
+```
+Vue.component('child', {
+  // 声明 props
+  props: {
+         message:{
+            type: String,
+            default: ''
+         }},
+  // 就像 data 一样，prop 可以用在模板内
+  // 同样也可以在 vm 实例中像 “this.message” 这样使用
+  template: '<span>{{ message }}</span>'
+})
+//usage
+<child message="hello!"></child>
+```
+
