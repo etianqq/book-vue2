@@ -14,6 +14,7 @@
         * [Prop](prop.md)
         * [自定义事件](自定义事件.md)
         * [Slot](slot.md)
+    * [部署和优化](部署.md)
 * [进阶](chapter2.md)
     * [单文件组件](chapter2-vue-file.md)
     * [vue-router\(2.0\)](chapter2-vue-router.md)
