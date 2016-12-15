@@ -13,7 +13,9 @@
       vm.$watch('a', function (newVal, oldVal) {
         // 这个回调将在 `vm.a`  改变后调用
       })
-      
+
+![](/assets/vue-instance.png)
+
 ####生命周期图示
 ![](vue-lifecycle.png)
 ![](vue-lifecycle-comparison.png)
