@@ -17,3 +17,15 @@
 
 因为它会自动添加动态属性值到该组件的每个标签里面：
 ![](/assets/style-scoped.png)
+
+####使用组件
+```
+import confirmDialog from '../../widget/confirmDialog.vue';
+...
+export default{
+    components: {
+            'vc-confirmDialog': confirmDialog
+        },
+}
+
+```
