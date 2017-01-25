@@ -1,4 +1,6 @@
 # vue-resource\(2.0\)
+[
+官方文档](https://github.com/pagekit/vue-resource/blob/master/docs/http.md)
 
 ####vue-resource插件具有以下特点：
 
