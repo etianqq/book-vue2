@@ -24,6 +24,7 @@
   * [双向数据绑定](双向数据绑定.md)
   * [虚拟DOM树](virtualdom.md)
   * [状态管理](statusmanager.md)
+    * [Vuex](statusmanager/vuex.md)
 * [其他插件](plugins.md)
 * [主流框架](framework.md)
 
