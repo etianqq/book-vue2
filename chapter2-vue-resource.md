@@ -22,6 +22,7 @@ URI Templates表示URI模板，有些类似于ASP.NET MVC的路由模板。
 
 #### 使用
 
+文件引用
 ```
 <script src="js/vue-resource.js"></script>
 ```
