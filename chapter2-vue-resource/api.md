@@ -36,7 +36,9 @@ this.$http.post('/someUrl', [body], [options]).then(successCallback, errorCallba
 | emulateHTTP | boolean | 发送PUT, PATCH, DELETE请求时以HTTP POST的方式发送，并设置请求头的X-HTTP-Method-Override |
 | emulateJSON | boolean | 将request body以application/x-www-form-urlencoded content type发送 |
 
+######注意：
 
+1. 如果Web服务器无法处理编码为application/json的请求，你可以启用```emulateJSON```选项。启用该选项后，请求会以```application/x-www-form-urlencoded```作为MIME type，就像普通的HTML表单一样。
 
 
 
