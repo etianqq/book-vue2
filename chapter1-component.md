@@ -1,5 +1,9 @@
 # 组件
 
+**把UI结构映射到恰当的组件树**
+
+![](/assets/vue-component.png)
+
 有两种方式定义全局组件：
 
 1. 单页面：component.vue
