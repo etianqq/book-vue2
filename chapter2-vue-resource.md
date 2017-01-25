@@ -1,6 +1,6 @@
 # vue-resource\(2.0\)
 
-vue-resource插件具有以下特点：
+####vue-resource插件具有以下特点：
 
 **1. 体积小**
 
@@ -20,5 +20,17 @@ URI Templates表示URI模板，有些类似于ASP.NET MVC的路由模板。
 拦截器是全局的，拦截器可以在请求发送前和发送请求后做一些处理。  
 拦截器在一些场景下会非常有用，比如请求发送前在headers中设置access\_token，或者在请求失败时，提供共通的处理方式。
 
+#### 使用
+
+```
+<script src="js/vue-resource.js"></script>
+```
+组件内使用：
+```
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+Vue.use(VueResource);
+
+```
 
 
