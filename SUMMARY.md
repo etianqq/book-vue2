@@ -20,5 +20,6 @@
   * [vue-router\(2.0\)](chapter2-vue-router.md)
   * [vue-resource\(2.0\)](chapter2-vue-resource.md)
     * [使用API](chapter2-vue-resource/api.md)
+    * [inteceptor](chapter2-vue-resource/inteceptor.md)
   * [双向数据绑定](双向数据绑定.md)
 
