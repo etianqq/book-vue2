@@ -23,11 +23,10 @@
     * [inteceptor](chapter2-vue-resource/inteceptor.md)
   * [双向数据绑定](双向数据绑定.md)
   * [虚拟DOM树](virtualdom.md)
-  * [状态管理](statusmanager.md)
+  * [Vuex:状态管理](statusmanager.md)
     * [Vuex](statusmanager/vuex.md)
 * [其他插件](plugins.md)
 * [主流框架](framework.md)
 * [vue2.0服务端渲染](vue2_structure.md)
 * [Weex原生渲染](weex.md)
-
 
