@@ -2,6 +2,10 @@
 
 本质上就是把整个应用抽象为下图中的循环。facebook最早提出 Flux 这个概念的时，也是一个很松散的概念，而且官方的实现本身做得很难用。
 
+* state，驱动应用的数据源
+* view，以声明方式将state映射到视图
+* actions，响应在view上的用户输入导致的状态变化
+
 图中的这三个东西是一个单向数据流，State 驱动 View 的渲染，而用户对 View 进行操作产生 Action，会使State产生变化，从而导致 View 重新渲染。
 
 ![](/assets/vue-state-manager.png)
