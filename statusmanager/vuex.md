@@ -10,7 +10,7 @@ Vuex 和单纯的全局对象有以下两点不同：
 
 * 不能直接改变 store 中的状态。改变 store 中的状态的唯一途径就是显式地提交(commit) mutations。
 
-####state
+####1.state
 Vuex 使用 **单一状态树** —— 用一个对象就包含了全部的应用层级状态。至此它便作为一个『唯一数据源(SSOT)』而存在。
 
 这也意味着，**每个应用将仅仅包含一个 store 实例**(可以利用modules把store细分)。
@@ -36,10 +36,31 @@ const store = new Vuex.Store({
     }
   }
 })
+组件内使用：
+computed: {
+  doneTodosCount () {
+    return this.$store.getters.doneTodosCount
+  }
+}
 ```
 
-####moutations
+####2.moutations
+mutations 非常类似于事件：每个 mutation 都有一个字符串的 事件类型 (type) 和 一个 回调函数 (handler)。
+**mutation 必须是同步函数**
+```
+mutations: {
+  //payload就是额外的参数
+  increment (state, payload) {
+    state.count += payload.amount;
+  }
+}
+组件内触发事件：
+this.$store.commit('increment'，{amount: 10}); 或者
+this.$store.commit({
+  type: 'increment',
+  amount: 10
+})
+```
+####3.actions
 
-####actions
-
-####modules
+####4.modules
