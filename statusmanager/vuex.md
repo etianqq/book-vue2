@@ -85,3 +85,44 @@ store.dispatch({ // 以对象形式分发
 ```
 
 ####4.modules
+
+使用单一状态树，导致应用的所有状态集中到一个很大的对象。但是，当应用变得很大时，store 对象会变得臃肿不堪。
+
+为了解决以上问题，**Vuex 允许我们将 store 分割到模块（module）。每个模块拥有自己的 state、mutation、action、getters、**甚至是嵌套子模块——从上至下进行类似的分割：
+```
+const moduleA = {
+  state: { ... },
+  mutations: { ... },
+  actions: { ... },
+  getters: { ... }
+}
+
+const moduleB = {
+  state: { ... },
+  mutations: { ... },
+  actions: { ... }
+}
+
+const store = new Vuex.Store({
+  modules: {
+    a: moduleA,
+    b: moduleB
+  }
+})
+
+store.state.a // -> moduleA 的状态
+store.state.b // -> moduleB 的状态
+```
+对于模块内部的 action，```context.state``` 是局部状态，根节点的状态是 ```context.rootState```:
+```
+const moduleA = {
+  // ...
+  actions: {
+    incrementIfOddOnRootSum ({ state, commit, rootState }) {
+      if ((state.count + rootState.count) % 2 === 1) {
+        commit('increment')
+      }
+    }
+  }
+}
+```
