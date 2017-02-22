@@ -62,5 +62,28 @@ this.$store.commit({
 })
 ```
 ####3.actions
+与mutations不同之处：
+
+* Action 提交的是 mutation，而不是直接变更状态。
+* Action 可以包含任意异步操作。
+
+```
+actions: {
+  incrementAsync ({ commit }) {
+    setTimeout(() => {
+      commit('increment')
+    }, 1000)
+  }
+}
+组件内触发事件：
+store.dispatch('incrementAsync', { // 以载荷形式分发
+  amount: 10
+})
+或者
+store.dispatch({ // 以对象形式分发
+  type: 'incrementAsync',
+  amount: 10
+})
+```
 
 ####4.modules
