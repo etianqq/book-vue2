@@ -14,4 +14,4 @@ Vue.js 的目标是通过尽可能简单的 API 实现响应的数据绑定和�
 
 ![](/assets/vue-tech.png)
 
-
+Gitbook: [https://www.gitbook.com/book/etianqq/vue2/details](https://www.gitbook.com/book/etianqq/vue2/details)
