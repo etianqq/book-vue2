@@ -76,9 +76,7 @@ actions: {
   }
 }
 组件内触发事件：
-store.dispatch('incrementAsync', { // 以载荷形式分发
-  amount: 10
-})
+store.dispatch('incrementAsync', { amount: 10}); // 以载荷形式分发
 或者
 store.dispatch({ // 以对象形式分发
   type: 'incrementAsync',
