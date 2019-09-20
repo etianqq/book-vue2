@@ -21,6 +21,7 @@ Gitbook: [https://etianqq.github.io/book-vue2/](https://etianqq.github.io/book-v
 
 其他书籍：
 
-* [HTTP讲义](https://etianqq.github.io/book-http/)
-* [Javascript简明讲义](https://etianqq.github.io/book-jstips/)
-* [Angular 1.0讲义](https://etianqq.github.io/book-angular/)
+* [Javascript简明讲义](https://etianqq.github.io/book-jstips/)
+* [HTTP讲义](https://etianqq.github.io/book-http/)
+* [Node讲义](https://etianqq.github.io/book-node/)
+* [Angular 1.0讲义](https://etianqq.github.io/book-angular/)
