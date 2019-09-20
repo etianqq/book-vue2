@@ -1,0 +1,28 @@
+{
+  "name": "book-vue2",
+  "version": "1.0.0",
+  "description": "vue 2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node_modules/.bin/gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etianqq/book-vue2.git"
+  },
+  "keywords": [
+    "vue",
+    "2.0"
+  ],
+  "author": "etianqq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etianqq/book-vue2/issues"
+  },
+  "homepage": "https://github.com/etianqq/book-vue2#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
