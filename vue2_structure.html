@@ -1,0 +1,705 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>vue2.0服务端渲染 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="weex.html" />
+    
+    
+    <link rel="prev" href="framework.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter1.html">
+            
+                <a href="chapter1.html">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="chapter1-install.html">
+            
+                <a href="chapter1-install.html">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="chapter1-vue-cli.html">
+            
+                <a href="chapter1-vue-cli.html">
+            
+                    
+                    vue-cli
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="chapter1-vue-object.html">
+            
+                <a href="chapter1-vue-object.html">
+            
+                    
+                    Vue实例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="chapter1-template.html">
+            
+                <a href="chapter1-template.html">
+            
+                    
+                    模板语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="chapter1-computed-property.html">
+            
+                <a href="chapter1-computed-property.html">
+            
+                    
+                    计算属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="chapter1-list.html">
+            
+                <a href="chapter1-list.html">
+            
+                    
+                    列表渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="chapter1-event.html">
+            
+                <a href="chapter1-event.html">
+            
+                    
+                    事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="chapter1-form.html">
+            
+                <a href="chapter1-form.html">
+            
+                    
+                    表单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="chapter1-component.html">
+            
+                <a href="chapter1-component.html">
+            
+                    
+                    组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.9.1" data-path="prop.html">
+            
+                <a href="prop.html">
+            
+                    
+                    Prop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9.2" data-path="自定义事件.html">
+            
+                <a href="自定义事件.html">
+            
+                    
+                    自定义事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9.3" data-path="slot.html">
+            
+                <a href="slot.html">
+            
+                    
+                    Slot
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="部署.html">
+            
+                <a href="部署.html">
+            
+                    
+                    部署和优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chapter2.html">
+            
+                <a href="chapter2.html">
+            
+                    
+                    进阶
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="chapter2-vue-file.html">
+            
+                <a href="chapter2-vue-file.html">
+            
+                    
+                    单文件组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="chapter2-vue-router.html">
+            
+                <a href="chapter2-vue-router.html">
+            
+                    
+                    vue-router(2.0)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="chapter2-vue-resource.html">
+            
+                <a href="chapter2-vue-resource.html">
+            
+                    
+                    vue-resource(2.0)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.3.1" data-path="chapter2-vue-resource/api.html">
+            
+                <a href="chapter2-vue-resource/api.html">
+            
+                    
+                    使用API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3.2" data-path="chapter2-vue-resource/inteceptor.html">
+            
+                <a href="chapter2-vue-resource/inteceptor.html">
+            
+                    
+                    inteceptor
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="双向数据绑定.html">
+            
+                <a href="双向数据绑定.html">
+            
+                    
+                    双向数据绑定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="virtualdom.html">
+            
+                <a href="virtualdom.html">
+            
+                    
+                    虚拟DOM树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="statusmanager.html">
+            
+                <a href="statusmanager.html">
+            
+                    
+                    状态管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.6.1" data-path="statusmanager/vuex.html">
+            
+                <a href="statusmanager/vuex.html">
+            
+                    
+                    Vuex
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="plugins.html">
+            
+                <a href="plugins.html">
+            
+                    
+                    其他插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="framework.html">
+            
+                <a href="framework.html">
+            
+                    
+                    主流框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="vue2_structure.html">
+            
+                <a href="vue2_structure.html">
+            
+                    
+                    vue2.0服务端渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="weex.html">
+            
+                <a href="weex.html">
+            
+                    
+                    Weex原生渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >vue2.0服务端渲染</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="vue20&#x670D;&#x52A1;&#x7AEF;&#x6E32;&#x67D3;">Vue2.0&#x670D;&#x52A1;&#x7AEF;&#x6E32;&#x67D3;</h1>
+<p><img src="assets/vue-sever-render.jpg" alt=""></p>
+<p>Vue2.0&#x540C;&#x65F6;&#x652F;&#x6301;&#x670D;&#x52A1;&#x7AEF;&#xFF0C;&#x670D;&#x52A1;&#x7AEF;&#x6E32;&#x67D3;&#x652F;&#x6301;&#x6D41;&#x5F0F;&#x6E32;&#x67D3;&#x3002;</p>
+<p>&#x56E0;&#x4E3A;HTTP&#x8BF7;&#x6C42;&#x4E5F;&#x662F;&#x6D41;&#x5F0F;&#xFF0C;Vue &#x7684;&#x670D;&#x52A1;&#x7AEF;&#x6E32;&#x67D3;&#x7ED3;&#x679C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5; pipe &#x5230;&#x8FD4;&#x56DE;&#x7684;&#x8BF7;&#x6C42;&#x91CC;&#x9762;&#x3002;&#x8FD9;&#x6837;&#x4E00;&#x6765;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x66F4;&#x65E9;&#x5730;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x5448;&#x73B0;&#x7ED9;&#x7528;&#x6237;&#x5185;&#x5BB9;&#xFF0C;&#x901A;&#x8FC7;&#x5408;&#x7406;&#x7684;&#x7F13;&#x5B58;&#x7B56;&#x7565;&#xFF0C;&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x5730;&#x63D0;&#x5347;&#x670D;&#x52A1;&#x7AEF;&#x6E32;&#x67D3;&#x7684;&#x6027;&#x80FD;&#x3002;</p>
+<p>&#x4E00;&#x4E2A;&#x670D;&#x52A1;&#x7AEF;&#x6E32;&#x67D3;&#x7684;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<p><strong>static/app.js</strong></p>
+<pre><code>(function () { &apos;use strict&apos;&#x3000; 
+var createApp = function () {&#x3000;&#x3000;
+&#x3000;&#x3000; return new Vue({&#x3000;&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000; template: &apos;&lt;div id=&quot;app&quot;&gt; \
+&#x3000;&#x3000;&#x3000;&#x3000;&#x3000; {{msg}} \
+&#x3000;&#x3000;&#x3000;&#x3000;&#x3000; &lt;button @click=&quot;click&quot;&gt;click&lt;/button&gt;\
+&#x3000;&#x3000;&#x3000;&#x3000; &lt;/div&gt;&apos;,&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000; data: {&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000;&#x3000; msg: 0&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000; },&#x3000;&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000; methods : {&#x3000;&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000;&#x3000; click : function() {&#x3000;
+&#x3000;&#x3000;&#x3000;&#x3000;&#x3000; alert(this.msg);&#x3000;&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000;&#x3000; }&#x3000;&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000; }&#x3000;&#x3000;
+&#x3000;&#x3000; })
+&#x3000; }&#x3000; &#x3000; 
+  // &#x5224;&#x65AD;&#x5F53;&#x524D;&#x73AF;&#x5883;&#x662F;&#x670D;&#x52A1;&#x7AEF;&#x73AF;&#x5883;&#x8FD8;&#x662F;&#x6D4F;&#x89C8;&#x5668;&#x73AF;&#x5883;&#x3000;
+&#x3000; if (typeof module !== &apos;undefined&apos; &amp;&amp; module.exports) {&#x3000;&#x3000;
+&#x3000;&#x3000; // &#x670D;&#x52A1;&#x7AEF;&#x73AF;&#x5883;&#xFF0C;&#x8FD4;&#x56DE;&#x5B9E;&#x4F8B;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#x3000;
+&#x3000;&#x3000; module.exports = createApp
+&#x3000; } else {&#x3000;&#x3000;
+&#x3000;&#x3000; // &#x6D4F;&#x89C8;&#x5668;&#x73AF;&#x5883;&#xFF0C;&#x76F4;&#x63A5;&#x8FDB;&#x884C;&#x5B9E;&#x4F8B;&#x5316;&#x3000;
+&#x3000;&#x3000; this.app = createApp()&#x3000;
+&#x3000; }
+}).call(this)
+</code></pre><p><strong>index.html</strong></p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&#x3000; &lt;title&gt;SSR&lt;/title&gt;
+&#x3000; &lt;script src=&quot;http://cdn.bootcss.com/vue/2.0.3/vue.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&#x3000; &lt;div id=&quot;app&quot;&gt;&lt;/div&gt;&#x3000;
+&#x3000; &lt;script src=&quot;/static/app.js&quot;&gt;&lt;/script&gt;&#x3000;
+&#x3000; &lt;script&gt;app.$mount(&apos;#app&apos;)&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p><strong>&#x670D;&#x52A1;&#x7AEF;&#x4EE3;&#x7801; server.js</strong></p>
+<pre><code>&apos;use strict&apos;
+var fs = require(&apos;fs&apos;)
+var path = require(&apos;path&apos;)
+global.Vue = require(&apos;vue&apos;)
+// &#x83B7;&#x53D6;index.html&#x5E03;&#x5C40;
+var layout = fs.readFileSync(&apos;./index.html&apos;, &apos;utf8&apos;)
+var renderer = require(&apos;vue-server-renderer&apos;).createRenderer()
+// &#x521B;&#x5EFA;&#x4E00;&#x4E2A;Express&#x670D;&#x52A1;&#x5668;
+var express = require(&apos;express&apos;)
+var server = express()
+// &#x8BBE;&#x7F6E;&quot;static&quot;&#x6587;&#x4EF6;&#x5939;&#x4E3A;&#x9759;&#x6001;&#x8D44;&#x6E90;&#x8DEF;&#x5F84;
+server.use(&apos;/static&apos;, express.static(&#x3000;
+&#x3000;path.resolve(__dirname, &apos;static&apos;)
+))
+// &#x5904;&#x7406;&#x6240;&#x6709;&#x7684;Get&#x8BF7;&#x6C42;
+server.get(&apos;*&apos;, function (request, response) {&#x3000;
+&#x3000; renderer.renderToString(&#x3000;&#x3000;
+&#x3000;&#x3000; // &#x83B7;&#x53D6;app.js&#x7684;Vue&#x5B9E;&#x4F8B;&#x3000;&#x3000; 
+    require(&apos;./static/app&apos;)(),&#x3000;
+&#x3000;&#x3000; function (error, html) {&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000; if (error) {&#x3000;&#x3000;&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000;&#x3000; console.error(error)&#x3000;&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000;&#x3000; return response
+&#x3000;&#x3000;&#x3000;&#x3000;&#x3000; .status(500)&#x3000;&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000;&#x3000;&#x3000; .send(&apos;Server Error&apos;)&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000; }&#x3000;&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000; // &#x5C06;&#x6E32;&#x67D3;&#x597D;&#x7684;HTML&#x63D2;&#x5165;&#x66FF;&#x6362;index.html&#x4E2D;&#xFF0C;&#x8FD4;&#x56DE;&#x7ED9;&#x6D4F;&#x89C8;&#x5668;&#x3000;&#x3000;
+&#x3000;&#x3000;&#x3000; response.send(layout.replace(&apos;&lt;div id=&quot;app&quot;&gt;&lt;/div&gt;&apos;, html))&#x3000;
+&#x3000;&#x3000; }&#x3000;
+&#x3000; )
+})
+// &#x76D1;&#x542C;3000&#x7AEF;&#x53E3;&#xFF0C;&#x901A;&#x8FC7;http://localhost:3000/&#x8BBF;&#x95EE;&#x5E94;&#x7528;
+server.listen(3000, function (error) {&#x3000;
+&#x3000; if (error) throw error
+&#x3000; console.log(&apos;Server is running at localhost:5000&apos;)
+})
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="framework.html" class="navigation navigation-prev " aria-label="Previous page: 主流框架">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="weex.html" class="navigation navigation-next " aria-label="Next page: Weex原生渲染">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"vue2.0服务端渲染","level":"1.6","depth":1,"next":{"title":"Weex原生渲染","level":"1.7","depth":1,"path":"weex.md","ref":"weex.md","articles":[]},"previous":{"title":"主流框架","level":"1.5","depth":1,"path":"framework.md","ref":"framework.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"vue2_structure.md","mtime":"2019-09-20T07:29:20.623Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-20T07:38:55.943Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
