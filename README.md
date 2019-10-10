@@ -18,10 +18,3 @@ Vue.js 的目标是通过尽可能简单的 API 实现响应的数据绑定和�
 #### 电子书
 
 Gitbook: [https://etianqq.github.io/book-vue2/](https://etianqq.github.io/book-vue2/)
-
-其他书籍：
-
-* [Javascript简明讲义](https://etianqq.github.io/book-jstips/)
-* [HTTP讲义](https://etianqq.github.io/book-http/)
-* [Node讲义](https://etianqq.github.io/book-node/)
-* [Angular 1.0讲义](https://etianqq.github.io/book-angular/)
